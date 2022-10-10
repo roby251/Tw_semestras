@@ -4,3 +4,9 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+/** Globales **/
+.contenedor {
+    width: min(90%, 120rem);
+    margin: 0 auto;
+}
