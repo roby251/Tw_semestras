@@ -1,14 +1,27 @@
+:root {
+    --fuenteComun: "Roboto","Helvetica",Helvetica,Arial,sans-serif;
+
+    --blanco: #ffffff;
+    --negro: #000000;
+}
 html {
     box-sizing: border-box;
 }
 *, *:before, *:after {
     box-sizing: inherit;
 }
+body {
+    font-family: var(--fuenteComun);
+    line-height: 1.8;
+}
 
 /** Globales **/
 .contenedor {
     width: min(90%, 120rem);
     margin: 0 auto;
+}
+a {
+    text-decoration: none;
 }
 /** Utilidades **/
 .no-margin {
@@ -20,10 +33,29 @@ html {
 .centrar-texto {
     text-align: center;
 }
+/** Header **/
+.header{
+    background-image: url(../multimedia/img/bannermusical.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.header__texto {
+    color: var(--blanco);
+    margin-top: 2.5rem;
+ }
 .barra {
     padding-top: 45px;
 }
 .logo{
+    font-size: 3rem;
     font-family: 'Permanent Marker', cursive;
-    /* color: white */
+    color: var(--blanco);
+}
+.navegacion__enlace {
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--blanco);
 }
