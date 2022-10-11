@@ -1,14 +1,34 @@
+:root {
+    --fuenteComun: "Roboto","Helvetica",Helvetica,Arial,sans-serif;
+
+    --blanco: #ffffff;
+    --negro: #000000;
+}
 html {
     box-sizing: border-box;
 }
 *, *:before, *:after {
     box-sizing: inherit;
 }
+body {
+    font-family: var(--fuenteComun);
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
 
 /** Globales **/
 .contenedor {
     width: min(90%, 120rem);
     margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+.h3{
+    margin-top: 1rem;
+}
+img {
+    max-width: 100%;
 }
 /** Utilidades **/
 .no-margin {
@@ -20,10 +40,159 @@ html {
 .centrar-texto {
     text-align: center;
 }
+/** Header **/
+.header{
+    background-image: url(../multimedia/img/bannermusical.jpg);
+    height: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+@media (min-width: 768px) {
+    .header {
+        height: 25rem;
+    }
+ }
+.header__texto {
+    color: var(--blanco);
+    margin-top: 2.5rem;
+ }
+ @media (min-width: 768px) {
+    .header__texto {
+        margin-top: 6.3rem;
+    }
+ }
 .barra {
-    padding-top: 45px;
+    padding-top: 4rem;
+}
+@media (min-width: 768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 .logo{
+    font-size: 3rem;
     font-family: 'Permanent Marker', cursive;
-    /* color: white */
+    color: var(--blanco);
+}
+@media (min-width: 768px) {
+    .navegacion {
+        display: flex;
+        gap: 1rem;
+    }
+}
+.navegacion__enlace {
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--blanco);
+}
+/** Main de index **/
+
+.entrada {
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+}
+.boton {
+    display: block;
+    font-family: var(--fuenteHeading);
+    color: var(--blanco);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border: none;
+}
+/** Footer **/
+.footer {
+    background-color: var(--negro);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
+}
+*{  /* Usar todo el espacio de la pagina  */
+    margin:0; padding:0;
+}
+
+
+/** Subir Música **/
+.formulario {
+    background-color: aquamarine;
+    padding: 1rem 1rem 0px 1.8rem;
+    border: 2px solid rgb(214, 223, 84);
+    margin: 1rem 3rem 0 3rem;
+    
+}
+
+.CampoText {
+    border: 1px solid gray;
+}
+.BotonSubir{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 2rem 0 2rem 0;
+    border: none;
+    width: 100%;
+    
+}
+
+.CampoText{
+    text-align: center;
+    width:100%;
+    padding: 5px;
+}
+
+
+.div_file{
+    font-size: 1.8rem;
+    font-weight: 700;
+	text-align: center;
+	position:relative;
+	color:rgb(224, 166, 240);
+	background-color: #1f7d05;
+    border-radius:5px;
+}
+#BS{
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	width:100%;
+	height:100%;
+	opacity: 0;
+}
+/** Resena **/
+.portada{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    
+}
+.foto{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.foto img{
+    width: 190px;
+    height: 190px;
+}
+.foto-titulo{
+    display: flex;
+    color: black;
+    font-family: "Roboto","Helvetica",Arial,sans-serif;
+    width: 50%;
+    line-height: 70px;
+    flex-direction: column;
+    padding: 1rem;
 }
