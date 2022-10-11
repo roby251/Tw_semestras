@@ -83,6 +83,7 @@ a {
     font-size: 1.2rem;
     color: var(--blanco);
 }
+/** Footer **/
 .footer {
     background-color: var(--negro);
     padding-bottom: 3rem;
