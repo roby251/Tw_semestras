@@ -89,3 +89,6 @@ a {
     padding-bottom: 3rem;
     margin-top: 4rem;
 }
+*{  /* Usar todo el espacio de la pagina  */
+    margin:0; padding:0;
+}
