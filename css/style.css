@@ -24,6 +24,12 @@ body {
 a {
     text-decoration: none;
 }
+.h3{
+    margin-top: 1rem;
+}
+img {
+    max-width: 100%;
+}
 /** Utilidades **/
 .no-margin {
     margin: 0;
@@ -82,6 +88,24 @@ a {
     text-align: center;
     font-size: 1.2rem;
     color: var(--blanco);
+}
+/** Main de index **/
+
+.entrada {
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+}
+.boton {
+    display: block;
+    font-family: var(--fuenteHeading);
+    color: var(--blanco);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border: none;
 }
 /** Footer **/
 .footer {
