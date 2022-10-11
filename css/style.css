@@ -169,3 +169,31 @@ img {
 	height:100%;
 	opacity: 0;
 }
+
+/** Resena **/
+.portada{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    
+}
+.foto{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.foto img{
+    width: 190px;
+    height: 190px;
+}
+.foto-titulo{
+    display: flex;
+    color: black;
+    font-family: "Roboto","Helvetica",Arial,sans-serif;
+    width: 50%;
+    line-height: 70px;
+    flex-direction: column;
+    padding: 1rem;
+}
