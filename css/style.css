@@ -12,6 +12,7 @@ html {
 }
 body {
     font-family: var(--fuenteComun);
+    font-size: 1.2rem;
     line-height: 1.8;
 }
 
@@ -36,26 +37,54 @@ a {
 /** Header **/
 .header{
     background-image: url(../multimedia/img/bannermusical.jpg);
-    height: 25rem;
+    height: 30rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
+@media (min-width: 768px) {
+    .header {
+        height: 25rem;
+    }
+ }
 .header__texto {
     color: var(--blanco);
     margin-top: 2.5rem;
  }
+ @media (min-width: 768px) {
+    .header__texto {
+        margin-top: 6.3rem;
+    }
+ }
 .barra {
-    padding-top: 45px;
+    padding-top: 4rem;
+}
+@media (min-width: 768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 .logo{
     font-size: 3rem;
     font-family: 'Permanent Marker', cursive;
     color: var(--blanco);
 }
+@media (min-width: 768px) {
+    .navegacion {
+        display: flex;
+        gap: 1rem;
+    }
+}
 .navegacion__enlace {
     display: block;
     text-align: center;
     font-size: 1.2rem;
     color: var(--blanco);
+}
+.footer {
+    background-color: var(--negro);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
 }
