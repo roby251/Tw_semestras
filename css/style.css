@@ -41,7 +41,6 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    font-family: 'Permanent Marker', cursive;
 }
 @media (min-width: 768px) {
     .header {
@@ -69,6 +68,7 @@ a {
 }
 .logo{
     font-size: 3rem;
+    font-family: 'Permanent Marker', cursive;
     color: var(--blanco);
 }
 @media (min-width: 768px) {
@@ -91,7 +91,6 @@ a {
 }
 *{  /* Usar todo el espacio de la pagina  */
     margin:0; padding:0;
-    
 }
 
 
@@ -101,7 +100,6 @@ a {
     padding: 1rem 1rem 0px 1.8rem;
     border: 2px solid rgb(214, 223, 84);
     margin: 1rem 3rem 0 3rem;
-    font-size: 1.8rem;
     
 }
 
