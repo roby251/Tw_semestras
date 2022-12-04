@@ -28,7 +28,7 @@
             <p class="no-margin">Miles de canciones a un solo click</p>
         </div>
     </header>
-    <form action="" class="formulario" >
+    <form action="../Tw_semestras/enviar.php" class="formulario" method="POST" enctype="multipart/form-data">
       <div id="main" class="Campo">
               <label for="nombrec">Nombre de la canción:</label>
           <input class="CampoText" type=text name=NC placeholder="Ingrese nombre de canción">
@@ -57,13 +57,13 @@
           </div>
           <div class="">
               <select class="CampoText" name=Genero>
-                  <option> Pop </option>
-                  <option>Rock </option>
-                  <option>Dubstep </option>      
-                  <option>Jazz </option>   
-                  <option>Regueton </option>   
-                  <option>Clasica </option>   
-                  <option>Otros </option>         
+                  <option value="Pop"> Pop </option>
+                  <option value="Rock">Rock </option>
+                  <option value="Dubstep">Dubstep </option>      
+                  <option value="Jazz">Jazz </option>   
+                  <option value="Regueton">Regueton </option>   
+                  <option value="Clasica">Clasica </option>   
+                  <option value="Otros">Otros </option>         
               </select>
           </div>
       </div>
