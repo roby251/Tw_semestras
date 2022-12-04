@@ -20,7 +20,7 @@ VALUES ('$nombre', '$artista', '$file_name' , '$genero', $hoy)";
 
 if ($conn->query($sql) === TRUE){
     echo "Registro agregado satisfactoriamente";
-    //header("Location: ../index.php");
+    header("Location: ./index.php");
 }else{
     echo "Error: ". $sql . "<br>" . $conn->error;
 }

@@ -17,12 +17,12 @@
     <header class="header">
         <div class="contenedor">
             <div class="barra">
-                <a href="index.html">
+                <a href="index.php">
                     <h1 class="logo no-margin centrar-texto">MyMusic</h1>
                 </a>
                 <nav class="navegacion">
                     <a class="navegacion__enlace">Iniciar Sesión</a>
-                    <a href="agregarMusic.html" class="navegacion__enlace">Subir Música</a>
+                    <a href="agregarMusic.php" class="navegacion__enlace">Subir Música</a>
                     <a class="navegacion__enlace">Nosotros</a>
                     <a href="resena.html" class="navegacion__enlace">Reseñas</a>
                 </nav>
@@ -39,7 +39,7 @@
             <article class="entrada">
                 <div class="entrada__imagen">
                     <picture>
-                        <img src="../multimedia/img/escucharmusica.jpg" alt="imagen escuchar musica"> 
+                        <img src="./multimedia/img/escucharmusica.jpg" alt="imagen escuchar musica"> 
                     </picture>
                 </div>
                 <div class="entrada__contenido centrar-texto">
@@ -51,19 +51,19 @@
             <article class="entrada">
                 <div class="entrada__imagen">
                     <picture>
-                        <img src="../multimedia/img/subirmusica.png" alt="imagen subir musica"> 
+                        <img src="./multimedia/img/subirmusica.png" alt="imagen subir musica"> 
                     </picture>
                 </div>
                 <div class="entrada__contenido centrar-texto">
                     <h4 class="h4 no-margin">Subir Música</h4>
                     <p>Sube tu propia música y compartela con los demás</p>
-                    <a href="agregarMusic.html" class="boton">Subir Música</a>
+                    <a href="agregarMusic.php" class="boton">Subir Música</a>
                 </div>
             </article>
             <article class="entrada">
                 <div class="entrada__imagen align">
                     <picture>
-                        <img src="../multimedia/img/reseña.png" alt="imagen reseña"> 
+                        <img src="./multimedia/img/reseña.png" alt="imagen reseña"> 
                     </picture>
                 </div>
                 <div class="entrada__contenido centrar-texto">
@@ -77,12 +77,12 @@
     <footer class="footer">
         <div class="contenedor">
             <div class="barra">
-                <a href="index.html">
+                <a href="index.php">
                     <h1 class="logo no-margin centrar-texto">MyMusic</h1>
                 </a>
                 <nav class="navegacion">
                     <a class="navegacion__enlace">Iniciar Sesión</a>
-                    <a href="agregarMusic.html" class="navegacion__enlace">Subir Música</a>
+                    <a href="agregarMusic.php" class="navegacion__enlace">Subir Música</a>
                     <a class="navegacion__enlace">Nosotros</a>
                     <a href="resena.html" class="navegacion__enlace">Reseñas</a>
                 </nav>

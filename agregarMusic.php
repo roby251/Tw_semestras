@@ -5,19 +5,19 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Comparte tus canciones</title>
-      <link rel="stylesheet" href="/Css/Style.css">
+      <link rel="stylesheet" href="css/style.css">
       <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="header">
         <div class="contenedor">
             <div class="barra">
-                <a href="index.html">
+                <a href="index.php">
                     <h1 class="logo no-margin centrar-texto">MyMusic</h1>
                 </a>
                 <nav class="navegacion">
                     <a class="navegacion__enlace">Iniciar Sesión</a>
-                    <a href="agregarMusic.html" class="navegacion__enlace">Subir Música</a>
+                    <a href="agregarMusic.php" class="navegacion__enlace">Subir Música</a>
                     <a class="navegacion__enlace">Nosotros</a>
                     <a href="resena.html" class="navegacion__enlace">Reseñas</a>
                 </nav>
@@ -72,12 +72,12 @@
     <footer class="footer">
         <div class="contenedor">
             <div class="barra">
-                <a href="index.html">
+                <a href="index.php">
                     <h1 class="logo no-margin centrar-texto">MyMusic</h1>
                 </a>
                 <nav class="navegacion">
                     <a class="navegacion__enlace">Iniciar Sesión</a>
-                    <a href="agregarMusic.html" class="navegacion__enlace">Subir Música</a>
+                    <a href="agregarMusic.php" class="navegacion__enlace">Subir Música</a>
                     <a class="navegacion__enlace">Nosotros</a>
                     <a href="resena.html" class="navegacion__enlace">Reseñas</a>
                 </nav>
