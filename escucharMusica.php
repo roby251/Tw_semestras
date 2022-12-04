@@ -27,8 +27,10 @@ $canciones = $conn->query($sql);
             $primeracancion = mysqli_fetch_array($canciones,MYSQLI_ASSOC);
             if (!empty($primeracancion)) {
                 foreach($canciones as $cancion) {?>
-                    <h5><?php echo $cancion['nombre_artista'] . " - " . $cancion['nombre_cancion']; ?><h5>
-                    <audio src="/Tw_semestras/multimedia/audio/<?php echo $cancion['cancion']; ?>" controls="controls"  preload="none"></audio>
+                    <div class="centrar-texto">
+                        <h5><?php echo $cancion['nombre_artista'] . " - " . $cancion['nombre_cancion']; ?><h5>
+                        <audio src="/Tw_semestras/multimedia/audio/<?php echo $cancion['cancion']; ?>" controls="controls"  preload="none"></audio>
+                    </div>
                 <?php } 
             }
             else{
