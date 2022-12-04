@@ -45,7 +45,7 @@
                 <div class="entrada__contenido centrar-texto">
                     <h4 class="h4 no-margin">Escuchar Música Online</h4>
                     <p>Busca y escucha música online</p>
-                    <a class="boton">Escuchar Música</a>
+                    <a href="escucharMusica.php" class="boton">Escuchar Música</a>
                 </div>
             </article>
             <article class="entrada">
