@@ -11,7 +11,7 @@ $genero = $_POST['genero'];
 $hoy = date("Ymd");
 
 if ($file_tmp != ""){
-    move_uploaded_file($file_tmp, "../audio/" . $file_name);
+    move_uploaded_file($file_tmp, "./multimedia/audio/" . $file_name);
 }    
 
 //Conexion e insercion en la base de datos
@@ -20,7 +20,7 @@ VALUES ('$nombre', '$artista', '$file_name' , '$genero', $hoy)";
 
 if ($conn->query($sql) === TRUE){
     echo "Registro agregado satisfactoriamente";
-    header("Location: ../index.php");
+    //header("Location: ../index.php");
 }else{
     echo "Error: ". $sql . "<br>" . $conn->error;
 }
