@@ -8,7 +8,7 @@
                 <a class="navegacion__enlace">Iniciar Sesión</a>
                 <a href="agregarMusic.php" class="navegacion__enlace">Subir Música</a>
                 <a class="navegacion__enlace">Nosotros</a>
-                <a href="resena.html" class="navegacion__enlace">Reseñas</a>
+                <a href="resena.php" class="navegacion__enlace">Reseñas</a>
             </nav>
         </div>
     </div>

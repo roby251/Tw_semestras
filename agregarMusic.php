@@ -9,25 +9,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class="header">
-        <div class="contenedor">
-            <div class="barra">
-                <a href="index.php">
-                    <h1 class="logo no-margin centrar-texto">MyMusic</h1>
-                </a>
-                <nav class="navegacion">
-                    <a class="navegacion__enlace">Iniciar Sesión</a>
-                    <a href="agregarMusic.php" class="navegacion__enlace">Subir Música</a>
-                    <a class="navegacion__enlace">Nosotros</a>
-                    <a href="resena.html" class="navegacion__enlace">Reseñas</a>
-                </nav>
-            </div>
-        </div>
-        <div class="header__texto centrar-texto">
-            <h2 class="no-margin">Comparte y escucha música online</h2>
-            <p class="no-margin">Miles de canciones a un solo click</p>
-        </div>
-    </header>
+    <?php include "header.php"; ?>
     <form action="../Tw_semestras/enviar.php" class="formulario" method="POST" enctype="multipart/form-data">
       <div id="main" class="Campo">
               <label for="nombrec">Nombre de la canción:</label>
@@ -69,20 +51,6 @@
       </div>
       <input class="BotonSubir" type=submit value="Enviar Solicitud">
     </form>
-    <footer class="footer">
-        <div class="contenedor">
-            <div class="barra">
-                <a href="index.php">
-                    <h1 class="logo no-margin centrar-texto">MyMusic</h1>
-                </a>
-                <nav class="navegacion">
-                    <a class="navegacion__enlace">Iniciar Sesión</a>
-                    <a href="agregarMusic.php" class="navegacion__enlace">Subir Música</a>
-                    <a class="navegacion__enlace">Nosotros</a>
-                    <a href="resena.html" class="navegacion__enlace">Reseñas</a>
-                </nav>
-            </div>
-        </div>
-    </footer>
+    <?php include "footer.php"; ?>
   </body>
 </html>
