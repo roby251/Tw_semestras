@@ -9,39 +9,33 @@
     <!-- Preload -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" crossorigin="crossorigin" as="font">
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-
+    
     <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
     <?php include "header.php"; ?>
     <div class="contenedor">
         <h3 class="h3 centrar-texto">Bienvenido a MyMusic</h3>
         <main class="inicio contenido-principal">
-            <article class="entrada">
-                <div class="entrada__imagen">
-                    <picture>
-                        <img src="./multimedia/img/escucharmusica.jpg" alt="imagen escuchar musica"> 
-                    </picture>
-                </div>
-                <div class="entrada__contenido centrar-texto">
-                    <h4 class="h4 no-margin">Escuchar Música Online</h4>
-                    <p>Busca y escucha música online</p>
-                    <a href="escucharMusica.php" class="boton">Escuchar Música</a>
-                </div>
-            </article>
-            <article class="entrada">
-                <div class="entrada__imagen">
-                    <picture>
-                        <img src="./multimedia/img/subirmusica.png" alt="imagen subir musica"> 
-                    </picture>
-                </div>
-                <div class="entrada__contenido centrar-texto">
-                    <h4 class="h4 no-margin">Subir Música</h4>
-                    <p>Sube tu propia música y compartela con los demás</p>
-                    <a href="agregarMusic.php" class="boton">Subir Música</a>
-                </div>
-            </article>
+        <div class="card" style="width: 18rem;">
+            <img src="./multimedia/img/escucharmusica.jpg" class="card-img-top" alt="imagen escuchar musica">
+            <div class="card-body">
+                <h5 class="card-title">Nombre_cancion</h5>
+                <p class="card-text">Etiqueta</p>
+                <a href="escucharMusica.php" class="btn btn-primary">Ver y Escuchar Música</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="./multimedia/img/escucharmusica.jpg" class="card-img-top" alt="imagen escuchar musica">
+            <div class="card-body">
+                <h5 class="card-title">Nombre_cancion</h5>
+                <p class="card-text">Etiqueta</p>
+                <a href="escucharMusica.php" class="btn btn-primary">Ver y Escuchar Música</a>
+            </div>
+        </div>
             <article class="entrada">
                 <div class="entrada__imagen align">
                     <picture>
