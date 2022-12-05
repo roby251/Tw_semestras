@@ -19,6 +19,15 @@
     <div class="contenedor">
         <h3 class="h3 centrar-texto">Bienvenido a MyMusic</h3>
         <main class="inicio contenido-principal">
+
+        <div class="card" style="width: 18rem;">
+            <img src="./multimedia/img/reseña.png" class="card-img-top" alt="imagen reseña">
+            <div class="card-body">
+                <h5 class="card-title">Reseñas</h5>
+                <p class="card-text">Lee y escribe reseñas de los artistas y músicas</p>
+                <a href="resena.php" class="btn btn-primary">Ver Reseñas</a>
+            </div>
+        </div>
         <div class="card" style="width: 18rem;">
             <img src="./multimedia/img/escucharmusica.jpg" class="card-img-top" alt="imagen escuchar musica">
             <div class="card-body">
@@ -28,26 +37,7 @@
             </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
-            <img src="./multimedia/img/escucharmusica.jpg" class="card-img-top" alt="imagen escuchar musica">
-            <div class="card-body">
-                <h5 class="card-title">Nombre_cancion</h5>
-                <p class="card-text">Etiqueta</p>
-                <a href="escucharMusica.php" class="btn btn-primary">Ver y Escuchar Música</a>
-            </div>
-        </div>
-            <article class="entrada">
-                <div class="entrada__imagen align">
-                    <picture>
-                        <img src="./multimedia/img/reseña.png" alt="imagen reseña"> 
-                    </picture>
-                </div>
-                <div class="entrada__contenido centrar-texto">
-                    <h4 class="h4 no-margin">Reseñas</h4>
-                    <p>Lee y escribe reseñas de los artistas y músicas</p>
-                    <a href="resena.php" class="boton">Reseñas</a>
-                </div>
-            </article>
+        
         </main>
     </div>
     <?php include "footer.php"; ?>
