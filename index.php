@@ -22,28 +22,21 @@ $canciones = $conn->query($sql);
 </head>
 <body>
     <?php include "header.php"; ?>
-    <div class="contenedor">
+    <div class="container">
         <h3 class="h3 centrar-texto">Bienvenido a MyMusic</h3>
-        <main class="inicio contenido-principal">
-
-        <div class="card" style="width: 18rem;">
-            <img src="./multimedia/img/reseña.png" class="card-img-top" alt="imagen reseña">
-            <div class="card-body">
-                <h5 class="card-title">Reseñas</h5>
-                <p class="card-text">Lee y escribe reseñas de los artistas y músicas</p>
-                <a href="resena.php" class="btn btn-primary">Ver Reseñas</a>
-            </div>
-        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <?php // Primera noticia recuperada
             $primeracancion = mysqli_fetch_array($canciones,MYSQLI_ASSOC);
             if (!empty($primeracancion)) {
                 foreach($canciones as $cancion) {?>
-                    <div class="card text-center" style="width: 18rem;">
-                        <img src="./multimedia/img/escucharmusica.jpg" class="card-img-top" alt="imagen escuchar musica">
-                        <div class="card-body">
-                            <h5 class="card-title"><?php echo $cancion['nombre_cancion']; ?></h5>
-                            <p class="card-text"><?php echo $cancion['nombre_artista']; ?></p>
-                            <a href="escucharMusica.php?id='<?php echo $cancion['cancion_id']; ?>'" class="btn btn-primary">Ver y Escuchar Música</a>
+                    <div class="col">
+                        <div class="card text-center" style="width: 18rem;">
+                            <img src="./multimedia/img/escucharmusica.jpg" class="card-img-top" alt="imagen escuchar musica">
+                            <div class="card-body">
+                                <h5 class="card-title"><?php echo $cancion['nombre_cancion']; ?></h5>
+                                <p class="card-text"><?php echo $cancion['nombre_artista']; ?></p>
+                                <a href="escucharMusica.php?id='<?php echo $cancion['cancion_id']; ?>'" class="btn btn-primary">Ver y Escuchar Música</a>
+                            </div>
                         </div>
                     </div>
                 <?php } 
@@ -52,6 +45,7 @@ $canciones = $conn->query($sql);
                 echo 'No hay canciones disponibles';
             }
         ?>
+        </div>
         </main>
     </div>
     <?php include "footer.php"; ?>
