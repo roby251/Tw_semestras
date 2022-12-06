@@ -38,7 +38,7 @@ $canciones = $conn->query($sql);
             $primeracancion = mysqli_fetch_array($canciones,MYSQLI_ASSOC);
             if (!empty($primeracancion)) {
                 foreach($canciones as $cancion) {?>
-                    <div class="card" style="width: 18rem;">
+                    <div class="card text-center" style="width: 18rem;">
                         <img src="./multimedia/img/escucharmusica.jpg" class="card-img-top" alt="imagen escuchar musica">
                         <div class="card-body">
                             <h5 class="card-title"><?php echo $cancion['nombre_cancion']; ?></h5>
