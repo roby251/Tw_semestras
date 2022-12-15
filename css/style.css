@@ -232,3 +232,44 @@ img {
     flex-direction: column;
     padding: 1rem;
 }
+.resena{
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+
+}
+.texto{
+    font-family: 'Roboto',sans-serif;
+    color: #343a40;
+    font-size: 13px;
+}
+.texto dt{
+    font-weight: 700;
+}
+.texto dd{
+    font-weight: 0;
+}
+.add-resena{
+    height: 170px;
+}
+.add-resena label{
+    font-family: 'Roboto',sans-serif;
+    color: #343a40;
+    font-size: 14px;
+    
+}
+.add-resena form{
+    display: flex;
+    color: #1f7d05;
+    flex-direction: column;
+    height: 100px;
+    
+}
+.caja-entrada{
+    padding: 3px;
+}
+.add-resena textarea{
+    width: 80%;
+    height: 80px;
+}
