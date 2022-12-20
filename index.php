@@ -24,7 +24,7 @@ $canciones = $conn->query($sql);
     <?php include "header.php"; ?>
     <div class="container">
         <h3 class="h3 centrar-texto">Bienvenido a MyMusic</h3>
-        <form action="../Tw_semestras/FALTA.php" method="POST" enctype="multipart/form-data">
+        <!-- <form action="../Tw_semestras/FALTA.php" method="POST" enctype="multipart/form-data">
             <div class="text-center row row-cols-1 row-cols-md-3 g-3">
                 <div class="col-12 col-md-5 my-3">
                     <label for="InputBusqueda" class="form-label">Busqueda por nombre:</label>
@@ -47,7 +47,7 @@ $canciones = $conn->query($sql);
                     <a href="#" class="btn btn-primary">Buscar</a>
                 </div>
             </div>
-        </form>
+        </form> -->
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <?php // Primera canción recuperada
             $primeracancion = mysqli_fetch_array($canciones,MYSQLI_ASSOC);
