@@ -24,8 +24,32 @@ $canciones = $conn->query($sql);
     <?php include "header.php"; ?>
     <div class="container">
         <h3 class="h3 centrar-texto">Bienvenido a MyMusic</h3>
+        <form action="../Tw_semestras/FALTA.php" method="POST" enctype="multipart/form-data">
+            <div class="text-center row row-cols-1 row-cols-md-3 g-3">
+                <div class="col-12 col-md-5 my-3">
+                    <label for="InputBusqueda" class="form-label">Busqueda por nombre:</label>
+                    <input type="text" class="form-control" name="busqueda">
+                </div>
+                <div class="col-12 col-md-5 my-3">
+                    <label for="selectgenerobuscar" class="form-label">Busqueda por género:</label>
+                    <select class="mx-2 form-select" name="categoria">
+                        <option value="" selected>Seleccione una opción</option>
+                        <option value="Pop"> Pop </option>
+                        <option value="Rock">Rock </option>
+                        <option value="Dubstep">Dubstep </option>      
+                        <option value="Jazz">Jazz </option>   
+                        <option value="Regueton">Regueton </option>   
+                        <option value="Clasica">Clasica </option>   
+                        <option value="Otros">Otros </option>  
+                    </select>
+                </div>
+                <div class="col col-md-2 my-3">
+                    <a href="#" class="btn btn-primary">Buscar</a>
+                </div>
+            </div>
+        </form>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <?php // Primera noticia recuperada
+        <?php // Primera canción recuperada
             $primeracancion = mysqli_fetch_array($canciones,MYSQLI_ASSOC);
             if (!empty($primeracancion)) {
                 foreach($canciones as $cancion) {?>
