@@ -75,12 +75,12 @@ Crear una aplicacion web que permita añadir y mostrar tanto musica y comentario
 > ### Requisitos
 > ##  Requisitos Funcionales.
 
-> # RF-1 La pagina muestra los comentarios de cada usuario
-> # RF-2 La pagina añade los comentarios de cada usuario por musica
-> # RF-3 La pagina permite subir musica a la aplicacion web
-> # RF-3 La pagina permite mostrar las musica subidas en la aplicacion web
+> ## RF-1 La pagina muestra los comentarios de cada usuario
+> ## RF-2 La pagina añade los comentarios de cada usuario por musica
+> ## RF-3 La pagina permite subir musica a la aplicacion web
+> ## RF-3 La pagina permite mostrar las musica subidas en la aplicacion web
 
->##  Requisitos No Funcionales.
-> # RNF-1 La pagina en los comentarios pide su nombre, comenario, y calificacion de la cancion a comentar,
-> # RNF-2 La pagina en la musica pide el titulo, el genero, el tipo de formato, y la cancion a subir por el usuario
+> ## Requisitos No Funcionales.
+> ## RNF-1 La pagina en los comentarios pide su nombre, comenario, y calificacion de la cancion a comentar,
+> ## NF-2 La pagina en la musica pide el titulo, el genero, el tipo de formato, y la cancion a subir por el usuario
 
