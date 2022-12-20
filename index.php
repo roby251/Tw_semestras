@@ -24,14 +24,14 @@ $canciones = $conn->query($sql);
     <?php include "header.php"; ?>
     <div class="container">
         <h3 class="h3 centrar-texto">Bienvenido a MyMusic</h3>
-        <form>
+        <form action="../Tw_semestras/FALTA.php" method="POST" enctype="multipart/form-data">
             <div class="text-center row row-cols-1 row-cols-md-3 g-3">
                 <div class="col-12 col-md-5 my-3">
                     <label for="InputBusqueda" class="form-label">Busqueda por nombre:</label>
                     <input type="text" class="form-control" name="busqueda">
                 </div>
                 <div class="col-12 col-md-5 my-3">
-                    <label for="selectcategoriabuscar" class="form-label">Busqueda por categoría:</label>
+                    <label for="selectgenerobuscar" class="form-label">Busqueda por género:</label>
                     <select class="mx-2 form-select" name="categoria">
                         <option value="" selected>Seleccione una opción</option>
                         <option value="Pop"> Pop </option>
