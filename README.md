@@ -25,13 +25,13 @@
 >La opción de tener un servicio orientado a valorar diferentes canciones y compartir lo que se opina o siente al escuchar esas canciones. También el tener una aplicación para reproducir, subir y bajar música.
 
 > ## Propuesta de solucion
-Desarrollar una aplicación web fácil de usar, de uso público, con el servicio de bajar subir y reproducir música junto a un apartado de reseña en cada canción. 
+> Desarrollar una aplicación web fácil de usar, de uso público, con el servicio de bajar subir y reproducir música junto a un apartado de reseña en cada canción. 
 
 > ## Propuesta de solucion
-Se propone una aplicacion web que permita mostrar y añadir, tanto musicas y comentarios para cada musica, dependiendo de su calificacion.
+> Se propone una aplicacion web que permita mostrar y añadir, tanto musicas y comentarios para cada musica, dependiendo de su calificacion.
 
 > ## Objetivo General:
-Realizar un aplicación web enfocada a compartir música de parte de sus usuarios.
+> Realizar un aplicación web enfocada a compartir música de parte de sus usuarios.
 
 > ## Objetivo especificos.
 
@@ -87,10 +87,10 @@ Realizar un aplicación web enfocada a compartir música de parte de sus usuario
 > # RF-4 Guardar selección: Dentro de la aplicación, el usuario a medida que elija su música preferida, se le recomendará la música relacionada a esa.
 
 
-> ## Requisitos No Funcionales.
--*RNF-1  Buscar música: El usuario podrá buscar músicas de varias formas, género, artista o los más escuchado en la actualidad.*
--*RNF-2 Subir musica: El usuario podrá subir la musica (.mp3) o el video de la musica (.mp4).*
--*RNF-3 Reseña: La aplicación web le pide al usuario su nombre, calificación, y la descripción para poder hacer su reseña.*
--*RNF-4 Guardar selección: Al usuario se le mostrará la música relacionada ya sea: por cantidad de veces escuchada, por los me gustas o por la descargada anteriormente.*
+## Requisitos No Funcionales.
+- *RNF-1  Buscar música: El usuario podrá buscar músicas de varias formas, género, artista o los más escuchado en la actualidad.*
+- *RNF-2 Subir musica: El usuario podrá subir la musica (.mp3) o el video de la musica (.mp4).*
+- *RNF-3 Reseña: La aplicación web le pide al usuario su nombre, calificación, y la descripción para poder hacer su reseña.*
+- *RNF-4 Guardar selección: Al usuario se le mostrará la música relacionada ya sea: por cantidad de veces escuchada, por los me gustas o por la descargada anteriormente.*
 
 
