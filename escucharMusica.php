@@ -37,8 +37,8 @@ $cancion = mysqli_fetch_array($query,MYSQLI_ASSOC);
                         <img src="multimedia/img/portada.jpg" alt="f">
                     </div>
                     <div class="foto-titulo">
-                        <h1>The Weekend</h1>
-                        <h2>Blinding Lights</h2>
+                        <h1><?php echo $cancion['nombre_artista']; ?></h1>
+                        <h2><?php echo $cancion['nombre_cancion']; ?></h2>
                     </div>
                 </div>
             </div>
