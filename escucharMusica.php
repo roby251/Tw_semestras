@@ -28,9 +28,6 @@ $cancion = mysqli_fetch_array($query,MYSQLI_ASSOC);
                 <h5><?php echo $cancion['nombre_artista'] . " - " . $cancion['nombre_cancion']; ?><h5>
                 <audio src="/Tw_semestras/multimedia/audio/<?php echo $cancion['cancion']; ?>" controls="controls"  preload="none"></audio>
             </div>
-            <?php
-            $conn->close();
-            ?>
             <div class="contenedor">
                 <div class= "portada">
                     <div class="foto">
@@ -43,9 +40,12 @@ $cancion = mysqli_fetch_array($query,MYSQLI_ASSOC);
                 </div>
             </div>
             <div class = "contenedor">
+                <div id="mostrarResena" class="mostar-resena">
                 <?php include "mostrarResena.php"; ?>
+                </div>
+                    
                 <div class="add-resena">
-                    <form method="post">
+                    <form id="formulario" method="post">
                         <div class="caja-entrada">
                             <label for="Nombre">Nombre :</label>
                             <input type="text" name="autor">
@@ -59,11 +59,39 @@ $cancion = mysqli_fetch_array($query,MYSQLI_ASSOC);
                             <textarea name="comentario" cols="30" rows="10" disal></textarea>
                         </div>
                         <div class="caja-entrada">
-                            <input type="submit" name="guardar">
+                            <button type="submit" id="enviar" name="enviar" href="mostrarResena.php?id='<?php $id ?>'">Agregar Comentario</button>
                         </div>
                     </form>
-                    <?php include "agregarResena.php"; ?>
+                    <?php
+                    #
+                    if (isset($_POST["enviar"])){
+                        if (strlen($_POST["autor"]) >= 1 && strlen($_POST["comentario"]) >= 1){
+                            $autor1 = trim($_POST["autor"]);
+                            $comentario1 = trim($_POST["comentario"]);
+                            $calificacion1 = trim($_POST["calificacion"]);
+                            $consulta1 = "INSERT INTO mymusic.resena(autor,comentario,calificacion,cancion_id) VALUES ('$autor1','$comentario1','$calificacion1',$id)";
+                            $resultado1 = mysqli_query($conn,$consulta1);
+                            if ($resultado1){
+                                ?>
+                                <h2 class="ok"></h2>
+                                <?php
+                            }
+                            else{
+                                ?>
+                                <h2 class="bad"></h2>
+                                <?php
+                            }
+                        }else{
+                            ?>
+                            <h2 class="bad"></h2>
+                            <?php
+                        }
+                    }
+                    ?>
                 </div>
+                <?php
+            $conn->close();
+            ?>
             </div>
     </div>
     <?php include "footer.php"; ?>
