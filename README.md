@@ -88,9 +88,9 @@ Realizar un aplicación web enfocada a compartir música de parte de sus usuario
 
 
 > ## Requisitos No Funcionales.
->  RNF-1  Buscar música: El usuario podrá buscar músicas de varias formas, género, artista o los más escuchado en la actualidad.
->  RNF-2 Subir musica: El usuario podrá subir la musica (.mp3) o el video de la musica (.mp4)
->  RNF-3 Reseña: La aplicación web le pide al usuario su nombre, calificación, y la descripción para poder hacer su reseña.
->  RNF-4 Guardar selección: Al usuario se le mostrará la música relacionada ya sea: por cantidad de veces escuchada, por los me gustas o por la descargada anteriormente.
+-*RNF-1  Buscar música: El usuario podrá buscar músicas de varias formas, género, artista o los más escuchado en la actualidad.*
+-*RNF-2 Subir musica: El usuario podrá subir la musica (.mp3) o el video de la musica (.mp4).*
+-*RNF-3 Reseña: La aplicación web le pide al usuario su nombre, calificación, y la descripción para poder hacer su reseña.*
+-*RNF-4 Guardar selección: Al usuario se le mostrará la música relacionada ya sea: por cantidad de veces escuchada, por los me gustas o por la descargada anteriormente.*
 
 
