@@ -29,7 +29,7 @@ Es por ello que la idea de este proyecto es enfocarnos en crear un sitio donde l
 para bien o para mal.
 
 > ## Propuesta de solucion
-> Se propone una aplicacion web que permita mostrar y añadir, tanto musicas y comentarios para cada musica, dependiendo de su calificacion.
+Se propone una aplicacion web que permita mostrar y añadir, tanto musicas y comentarios para cada musica, dependiendo de su calificacion.
 
 > ### Objetivo General:
 Crear una aplicacion web que permita añadir y mostrar tanto musica y comentarios de la misma, haciendo uso de una base de datos en mymusic.
