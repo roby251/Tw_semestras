@@ -17,12 +17,12 @@
 - *Requisitos*
 
 > ## Introduccion
-La musica es una manera de conectar con el mundo, ademas, nos permite conocer varios tipos de artistas y generos de todo los gustos.
+>La musica es una manera de conectar con el mundo, ademas, nos permite conocer varios tipos de artistas y generos de todo los gustos.
 
-> Durante este pryecto se intenta lograr una pagina web donde los usuarios puedan subir su musica para dar conocer sus preferencias y ademas calificarlas a traves de reseñas
+> Durante este proyecto se intenta lograr una pagina web donde los usuarios puedan subir su musica para dar conocer sus preferencias y ademas calificarlas a traves de reseñas
 
 > ## Descripcion de la problematica
-Que las musicas no pueden ser calificadas por cada usuario, independiente si es de su preferencia o no, que haya libre expresion en todas las canciones subidas a la plataforma
+>Que las musicas no pueden ser calificadas por cada usuario, independiente si es de su preferencia o no, que haya libre expresion en todas las canciones subidas a la plataforma
 
 > ## Propuesta de solucion
 Es por ello que la idea de este proyecto es enfocarnos en crear un sitio donde los usuarios pueden subir sus musica y ademas pueda crear comentarios acerca de esa musica, ya sea
