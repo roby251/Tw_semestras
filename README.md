@@ -1,5 +1,4 @@
 # Tw_semestras
-![](https://www.uta.cl/wp-content/uploads/2018/11/logoweb_UTA.png)
 # Pagina web
 ## "My Music"
 
