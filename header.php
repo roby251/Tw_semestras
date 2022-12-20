@@ -5,7 +5,7 @@
                 <h1 class="logo no-margin centrar-texto">MyMusic</h1>
             </a>
             <nav class="navegacion">
-                <a class="navegacion__enlace" style="text-decoration: none; color: #fff;">Iniciar Sesión</a>
+                <!-- <a class="navegacion__enlace" style="text-decoration: none; color: #fff;">Iniciar Sesión</a> -->
                 <a href="agregarMusic.php" class="navegacion__enlace" style="text-decoration: none; color: #fff;">Subir Música</a>
                 <a class="navegacion__enlace" style="text-decoration: none; color: #fff;">Nosotros</a>
             </nav>

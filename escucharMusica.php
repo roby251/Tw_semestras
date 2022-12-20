@@ -45,7 +45,7 @@ $cancion = mysqli_fetch_array($query,MYSQLI_ASSOC);
                 </div>
                     
                 <div class="add-resena">
-                    <form id="formulario" method="post">
+                    <form action="../Tw_semestras/agregarResena.php?id='<?php echo $id; ?>'" id="formulario" method="post" enctype="multipart/form-data">
                         <div class="caja-entrada">
                             <label for="Nombre">Nombre :</label>
                             <input type="text" name="autor">
@@ -59,35 +59,9 @@ $cancion = mysqli_fetch_array($query,MYSQLI_ASSOC);
                             <textarea name="comentario" cols="30" rows="10" disal></textarea>
                         </div>
                         <div class="caja-entrada">
-                            <button type="submit" id="enviar" name="enviar" href="mostrarResena.php?id='<?php $id ?>'">Agregar Comentario</button>
+                            <button type="submit" name="enviar">Agregar Comentario</button>
                         </div>
                     </form>
-                    <?php
-                    #
-                    if (isset($_POST["enviar"])){
-                        if (strlen($_POST["autor"]) >= 1 && strlen($_POST["comentario"]) >= 1){
-                            $autor1 = trim($_POST["autor"]);
-                            $comentario1 = trim($_POST["comentario"]);
-                            $calificacion1 = trim($_POST["calificacion"]);
-                            $consulta1 = "INSERT INTO mymusic.resena(autor,comentario,calificacion,cancion_id) VALUES ('$autor1','$comentario1','$calificacion1',$id)";
-                            $resultado1 = mysqli_query($conn,$consulta1);
-                            if ($resultado1){
-                                ?>
-                                <h2 class="ok"></h2>
-                                <?php
-                            }
-                            else{
-                                ?>
-                                <h2 class="bad"></h2>
-                                <?php
-                            }
-                        }else{
-                            ?>
-                            <h2 class="bad"></h2>
-                            <?php
-                        }
-                    }
-                    ?>
                 </div>
                 <?php
             $conn->close();

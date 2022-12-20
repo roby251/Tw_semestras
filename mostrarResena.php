@@ -17,7 +17,7 @@ include "conexion.php";
                     <dd><?php echo $autor?></dd>
                     <dt>Calificacion</dt>
                     <dd><?php echo $calificacion?></dd>
-                    <dt>Comentarios de la tienda</dt>
+                    <dt>Comentarios de la música</dt>
                     <dd><?php echo $comentario?></dd>
                 </dl>
             </div>
