@@ -31,30 +31,30 @@ para bien o para mal.
 > ## Propuesta de solucion
 Se propone una aplicacion web que permita mostrar y añadir, tanto musicas y comentarios para cada musica, dependiendo de su calificacion.
 
-> ### Objetivo General:
+> ## Objetivo General:
 Crear una aplicacion web que permita añadir y mostrar tanto musica y comentarios de la misma, haciendo uso de una base de datos en mymusic.
 
-> ### Objetivo especificos.
+> ## Objetivo especificos.
 
-> ## Crear un maquetacion hacia el primer enfoque que tendra la aplicacion web.
-> ## Hacer las conexiones a la base de datos de mymusic.
-> ## Realizar un boceto de como se quiere que sea la aplicacion web
-> ## Realizar una presentacion para la entrega del producto
+> Crear un maquetacion hacia el primer enfoque que tendra la aplicacion web.
+> Hacer las conexiones a la base de datos de mymusic.
+> Realizar un boceto de como se quiere que sea la aplicacion web
+> Realizar una presentacion para la entrega del producto
 
 > ### Actividades
-> Añadir una funcion que permita agregar comentarios a la base de datos de mymusic
+Añadir una funcion que permita agregar comentarios a la base de datos de mymusic
 
-> Mostrar una funcion que permita mostrar cada comentario de la base datos de mymusic, y hacerlos visibles en la pagina.
+Mostrar una funcion que permita mostrar cada comentario de la base datos de mymusic, y hacerlos visibles en la pagina.
 
-> Realizar un diseño web  de estilos con boostrap dentro de la pagina.
+Realizar un diseño web  de estilos con boostrap dentro de la pagina.
 
-> Añadir cancion una funcion que añade musica a la base datos y guardarlas .
+Añadir cancion una funcion que añade musica a la base datos y guardarlas .
 
-> Mostrar cancion una funcion que muestre cada musica, sacada de la base de datos de mymusic.
+Mostrar cancion una funcion que muestre cada musica, sacada de la base de datos de mymusic.
 
-> ### Roles
+> ## Roles
 > ## Jack Torres:
-> Encargado de la maquetacion, la estructura y diseño de la pagina
+Encargado de la maquetacion, la estructura y diseño de la pagina
 
 > ## Eduardo Apata:
 >Encargado de la parte de subir comentarios a la platoforma
