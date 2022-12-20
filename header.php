@@ -7,7 +7,7 @@
             <nav class="navegacion">
                 <!-- <a class="navegacion__enlace" style="text-decoration: none; color: #fff;">Iniciar Sesión</a> -->
                 <a href="agregarMusic.php" class="navegacion__enlace" style="text-decoration: none; color: #fff;">Subir Música</a>
-                <a class="navegacion__enlace" style="text-decoration: none; color: #fff;">Nosotros</a>
+                <a href="nosotros.php" class="navegacion__enlace" style="text-decoration: none; color: #fff;">Nosotros</a>
             </nav>
         </div>
     </div>
