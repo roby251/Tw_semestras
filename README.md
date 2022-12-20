@@ -79,12 +79,12 @@
 
 
 > ### Requisitos
-> ##  Requisitos Funcionales.
+##  Requisitos Funcionales.
 
-> # RF-1 Buscar música: El usuario podrá buscar sus selecciones musicales de preferencia.
-> # RF-2 Descargar Música: Habrá una función donde el usuario tendrá la posibilidad de descargar la música dentro de la aplicación web.
-> # RF-3 Reseña: La aplicación web permitirá crear una reseña dependiendo del artista que esté calificando
-> # RF-4 Guardar selección: Dentro de la aplicación, el usuario a medida que elija su música preferida, se le recomendará la música relacionada a esa.
+- *RF-1 Buscar música: El usuario podrá buscar sus selecciones musicales de preferencia.*
+- *RF-2 Descargar Música: Habrá una función donde el usuario tendrá la posibilidad de descargar la música dentro de la aplicación web.*
+- *RF-3 Reseña: La aplicación web permitirá crear una reseña dependiendo del artista que esté calificando.*
+- *RF-4 Guardar selección: Dentro de la aplicación, el usuario a medida que elija su música preferida, se le recomendará la música relacionada a esa.*
 
 
 ## Requisitos No Funcionales.
