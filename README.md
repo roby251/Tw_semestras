@@ -22,47 +22,49 @@
 > Durante este proyecto se intenta lograr una pagina web donde los usuarios puedan subir su musica para dar conocer sus preferencias y ademas calificarlas a traves de reseñas
 
 > ## Descripcion de la problematica
->Que las musicas no pueden ser calificadas por cada usuario, independiente si es de su preferencia o no, que haya libre expresion en todas las canciones subidas a la plataforma
+>La opción de tener un servicio orientado a valorar diferentes canciones y compartir lo que se opina o siente al escuchar esas canciones. También el tener una aplicación para reproducir, subir y bajar música.
 
 > ## Propuesta de solucion
-Es por ello que la idea de este proyecto es enfocarnos en crear un sitio donde los usuarios pueden subir sus musica y ademas pueda crear comentarios acerca de esa musica, ya sea
-para bien o para mal.
+Desarrollar una aplicación web fácil de usar, de uso público, con el servicio de bajar subir y reproducir música junto a un apartado de reseña en cada canción. 
 
 > ## Propuesta de solucion
 Se propone una aplicacion web que permita mostrar y añadir, tanto musicas y comentarios para cada musica, dependiendo de su calificacion.
 
 > ## Objetivo General:
-Crear una aplicacion web que permita añadir y mostrar tanto musica y comentarios de la misma, haciendo uso de una base de datos en mymusic.
+Realizar un aplicación web enfocada a compartir música de parte de sus usuarios.
 
 > ## Objetivo especificos.
 
-> Crear un maquetacion hacia el primer enfoque que tendra la aplicacion web.
-> Hacer las conexiones a la base de datos de mymusic.
-> Realizar un boceto de como se quiere que sea la aplicacion web
-> Realizar una presentacion para la entrega del producto
+> Especificar problemática, requerimientos y definir la planificación del proyecto.
+> Aplicar conocimientos de HTML, CSS y JS para el desarrollo de la aplicación web.
+> Diseñar una aplicación web llamativa visualmente.
+> Hacer una aplicación web multiplataforma.
+> Realizar pruebas de funcionalidad del sistema.
 
 > ### Actividades
-Añadir una funcion que permita agregar comentarios a la base de datos de mymusic
+> Realizar reseña (maquetación).                   Eduardo Apata
+> Ingresar musica (maquetación).                   Bastian Mamani
+> Página de Inicio .                               Jack Torres
+> Sprint 2 :
+> Subir Musica  .                                  Eduardo Apata
+> Mostrar Musica.                                  Bastian Mamani   
+> Buscar Musica.                                   Jack Torres
+> Sprint 3:
+> Agregar Reseña.                                  Jack Torres
+> Mostrar todas las reseñas.                       Eduardo Apata
 
-Mostrar una funcion que permita mostrar cada comentario de la base datos de mymusic, y hacerlos visibles en la pagina.
-
-Realizar un diseño web  de estilos con boostrap dentro de la pagina.
-
-Añadir cancion una funcion que añade musica a la base datos y guardarlas .
-
-Mostrar cancion una funcion que muestre cada musica, sacada de la base de datos de mymusic.
 
 > ## Roles
 > ## Jack Torres:
-Encargado de la maquetacion, la estructura y diseño de la pagina
+Encargado de la manipulacion de paginas dentro de la aplicacion web, ayudante de documentacion y gestor de funciones javascript
 
 > ## Eduardo Apata:
->Encargado de la parte de subir comentarios a la platoforma
+>Encargado de la parte de diseño de la aplicacion web y encargado de documentacion.
 
 > ## Bastian Mamani:
-> Encargado de subir las musicas a la aplicacion web.
+> Jefe de grupo y admnitrador de la base de datos de mymusuic
 
-> ### Herramientos
+> ### Herramientas
 > ## Visual Studio Code:
 > Nos servira de manera fundametal para editar los codigos para hacer nuestra pagina web
 
@@ -72,15 +74,23 @@ Encargado de la maquetacion, la estructura y diseño de la pagina
 > ## Discord:
 > Para poder mejorar la coordinacion de tareas y asignacion de actividades para cada semana.
 
+> ## Licencias Microsoft: Windows 10 y Office
+> ## Lenguajes de programación a utilizar: HTML5, CSS3, JavaScript.
+
+
 > ### Requisitos
 > ##  Requisitos Funcionales.
 
->  # RF-1 La pagina muestra los comentarios de cada usuario
->  # RF-2 La pagina añade los comentarios de cada usuario por musica
->  # RF-3 La pagina permite subir musica a la aplicacion web
->  # RF-3 La pagina permite mostrar las musica subidas en la aplicacion web
+> # RF-1 Buscar música: El usuario podrá buscar sus selecciones musicales de preferencia.
+> # RF-2 Descargar Música: Habrá una función donde el usuario tendrá la posibilidad de descargar la música dentro de la aplicación web.
+> # RF-3 Reseña: La aplicación web permitirá crear una reseña dependiendo del artista que esté calificando
+> # RF-4 Guardar selección: Dentro de la aplicación, el usuario a medida que elija su música preferida, se le recomendará la música relacionada a esa.
+
 
 > ## Requisitos No Funcionales.
->  # RNF-1 La pagina en los comentarios pide su nombre, comenario, y calificacion de la cancion a comentar,
->  # RNF-2 La pagina en la musica pide el titulo, el genero, el tipo de formato, y la cancion a subir por el usuario
+>  # RNF-1  Buscar música: El usuario podrá buscar músicas de varias formas, género, artista o los más escuchado en la actualidad.
+>  # RNF-2 Subir musica: El usuario podrá subir la musica (.mp3) o el video de la musica (.mp4)
+>  # RNF-3 Reseña: La aplicación web le pide al usuario su nombre, calificación, y la descripción para poder hacer su reseña.
+>  # RNF-4 Guardar selección: Al usuario se le mostrará la música relacionada ya sea: por cantidad de veces escuchada, por los me gustas o por la descargada anteriormente.
+
 
