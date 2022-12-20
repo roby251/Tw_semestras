@@ -6,7 +6,7 @@ if (isset($_POST["guardar"])){
         $autor = trim($_POST["autor"]);
         $comentario = trim($_POST["comentario"]);
         $calificacion = trim($_POST["calificacion"]);
-        $insertar = "INSERT INTO resena(autor, comentario, calificacion) VALUES ('$autor','$comentario','$calificacion')";
+        $insertar = "INSERT INTO mymusic.resena(autor, comentario, calificacion) VALUES ('$autor','$comentario','$calificacion')";
         $resultado = mysqli_query($conn,$insertar);
         if ($resultado){
             ?>
