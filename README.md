@@ -55,7 +55,7 @@
 
 > ## Roles
 > ## Jack Torres:
->Encargado de la manipulacion de paginas dentro de la aplicacion web, ayudante de documentacion y gestor de funciones javascript
+>Encargado de la manipulacion de paginas dentro de la aplicacion web, ayudante de documentacion y gestor de funciones PHP.
 
 > ## Eduardo Apata:
 >Encargado de la parte de diseño de la aplicacion web y encargado de documentacion.
